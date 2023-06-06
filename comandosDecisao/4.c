@@ -17,8 +17,6 @@ int main(){
     if(x==y && y==z){
         printf("1");
     }
-        
-
     else if (x != y && y != z && x != z){
         printf("2");
     }
