@@ -22,10 +22,10 @@ int main() {
     printf("\tMenu:\n• Código: 1; Preço: 5,30\n• Código: 2; Preço: 6,00\n• Código: 3; Preço: 3,20\n• Código: 4; Preço: 2,50\n\n");
     do {
         printf("Digite o código do produto: ");
-        scanf("%d", &codigo);
+        scanf("%i", &codigo);
 
         printf("Digite a quantidade comprada: ");
-        scanf("%d", &quantidade);
+        scanf("%i", &quantidade);
 
         if (codigo < 1 || codigo > 4) {
             printf("Código de produto inválido!\n");
